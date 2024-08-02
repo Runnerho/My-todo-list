@@ -1,0 +1,44 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.App{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    text-align: center;
+}
+button{
+    background-color: #999;
+    border-radius: 5px;
+    width: 50px;
+    height: 35px;
+}
+input{
+    height: 35px;
+    margin: 10px 0 5px 0;
+}
+input::placeholder, input{
+    padding-left: 3px;
+}
+div,h1{
+    color: #fff;
+}
+.task{
+    border: 1px solid #fff;
+    width: 50%;
+    margin: 10px auto;
+    border-radius: 5px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+}
+.green{
+    background-color: green;
+}
+.edit-task{
+    line-height: 50px;
+}
